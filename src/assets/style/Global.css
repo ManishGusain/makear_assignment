@@ -1,0 +1,244 @@
+p {
+    font-family: Hobeaux;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+input.invalid {
+    border: 1px solid #ff0000;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.container {
+    width: 30em;
+    height: 100svh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding:1em;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border:1px solid #000;
+}
+
+.frame {
+    height: 25em;
+    width: 20em;
+    background-color: #343434;
+    border-radius: 20px;
+    border: 5px solid #AFAFAF;
+    border-style: dashed;
+    position: relative;
+    overflow: hidden;
+}
+
+.close-btn {
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.retake-btn {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.name-input {
+    font-family: Hobeaux;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: inset 1px 1px 3px 1px #CFCFCF;
+}
+
+.save-btn {
+    width: 35%;
+    border-radius: 8px;
+    border: 5px solid #fff;
+    box-shadow: 0px 3px #AFAFAF;
+}
+
+.branding-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.branding-container>img {
+    width: 11em;
+}
+
+.branding-rhs {
+    margin-right: .5em;
+}
+
+.branding-rhs>img {
+    width: 2.5em;
+}
+
+.branding-rhs>img:first-child {
+    margin-right: .5em;
+}
+
+.passport-container {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: rotate(8deg);
+    width: 80%;
+}
+
+.p-top {
+    height: 220px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5em;
+    box-shadow: 0px -8px #ebe9e9;
+    border-top:1px solid grey
+}
+
+.p-top>img {
+    width: 6em;
+}
+
+.p-bottom {
+    height: 220px;
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #fff;
+    padding: 0 .5em;
+    position: relative;
+    box-shadow: 0px 8px #ebe9e9;
+    border-bottom:1px solid grey
+}
+
+.p-bottom>img {
+    flex: 1;
+    width: 28em;
+    height: 18em;
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    transform: rotate(-.5deg);
+}
+
+.profile-icon-wrapper {
+    position: relative;
+}
+
+.edit-icon {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    width: 1.7em;
+}
+
+.usr-name-wrapper{
+    padding-left: 1.3em;
+}
+
+.usr-name-wrapper p:first-child {
+    font-family: BebasNeue;
+    color: #0394C3;
+}
+
+.usr-name-wrapper p:nth-child(2) {
+    font-size: 2rem;
+    color: #0394C3;
+    width: 7em;
+    overflow-wrap: break-word;
+}
+
+.usr-name-wrapper p:nth-child(3) {
+    font-size: 1.3rem;
+    color: #FAEA18;
+    -webkit-text-stroke: 1px #021689;
+    text-shadow: 2px 2px #0394C3;
+}
+
+.p-bottom>p{
+    font-size: 1.5rem;
+    color: #FAEA18;
+    text-shadow: 2px 2px #021689;
+    text-align: center;
+    padding-top: .2em;
+}
+
+.profile-img{
+    width: 120px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.download-icon{
+    width: 2.2em;
+}
+
+.download-btn-wrapper {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20em;
+  }
+
+.download-btn {
+    font-family: Hobeaux;
+    width: 35%;
+    height: 50%;
+    border-radius: 8px;
+    border: 5px solid #fff;
+    box-shadow: 0px 3px #AFAFAF;
+    background-color: #0394C3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
